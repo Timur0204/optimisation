@@ -1,0 +1,28 @@
+   
+   .opt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-around;
+   }
+
+   div > img {
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px gray;
+   }
+   
+   @media(min-width: 870px) {
+    .opt {
+        flex-direction: row;
+    }
+
+    .first-block, .second-block, .third-block {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 33%;
+    }
+
+   }
+
